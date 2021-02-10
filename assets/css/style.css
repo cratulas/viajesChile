@@ -1,6 +1,96 @@
+body{
+    color: white;
+    
+}
+
+
+.bg-negro{
+    background-color: black;
+    
+}
+
+
+
 nav img{
     height: 50px;
 }
+
+
+
+.barraNavegacion{
+    
+   position: absolute;
+   z-index: 999;
+   left: 10%;
+   top: 40%;
+
+}
+
+
+
+.carrusel {
+    
+    top: -1.25rem;
+    
+    
+}
+
+
+/*.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}*/
+
+
+
+
+
+
+
+
+.linea1{
+
+  width: 90%;
+  margin-left: 5%;
+  
+  border-top: 1px solid #23bac4;
+  
+}
+
+.col-md-4 i {
+
+    color: white;
+}
+
+
+.card img{
+    height: 140px;
+  
+    
+}
+
+
+@media (max-width: 800px){
+
+    nav img{
+        height: 35px;
+    }
+
+    .barraNavegacion{
+    
+           
+        left: 0%;
+      
+     
+     }
+}
+
+
+
+
 
 footer i {
 
