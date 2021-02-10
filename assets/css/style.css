@@ -1,6 +1,6 @@
 body{
     color: white;
-    
+    background-color: black;
 }
 
 
@@ -14,6 +14,7 @@ body{
 nav img{
     height: 50px;
 }
+
 
 
 
@@ -45,17 +46,10 @@ nav img{
 }*/
 
 
-
-
-
-
-
-
 .linea1{
 
-  width: 90%;
-  margin-left: 5%;
-  
+  width: 95%;
+  margin-left: 3%;
   border-top: 1px solid #23bac4;
   
 }
@@ -65,28 +59,34 @@ nav img{
     color: white;
 }
 
+.card{
+    border: 0;
+    
+}
 
 .card img{
     height: 140px;
+    width: 100%;
   
-    
+}
+
+.linea2{
+
+    width: 95%;
+    margin-left: 3%;
+    border-top: 1px solid #23bac4;
+}
+
+.linea3{
+
+    width: 95%;
+    margin-left: 3%;
+    border-top: 1px solid #23bac4;
 }
 
 
-@media (max-width: 800px){
 
-    nav img{
-        height: 35px;
-    }
 
-    .barraNavegacion{
-    
-           
-        left: 0%;
-      
-     
-     }
-}
 
 
 
@@ -99,4 +99,43 @@ footer i {
 
 footer img{
     height: 30px;
+    float: left;
+    
+}
+
+.iconos{
+
+    margin-left: -6%;
+   
+}
+
+
+
+@media (max-width: 800px){
+
+    nav img{
+        height: 35px;
+    }
+
+    .barraNavegacion{ 
+
+        left: 0%;
+           
+    }
+
+    footer img{
+        height: 25px;
+        margin-top: 1%;
+        margin-left: -17%;
+        margin-bottom: 2%;
+        
+        
+       
+    }
+
+    .iconos{
+
+        margin-left: 7%;
+       
+    }
 }
