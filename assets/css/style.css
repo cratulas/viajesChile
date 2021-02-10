@@ -1,6 +1,7 @@
 body{
     color: white;
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -28,23 +29,12 @@ nav img{
 }
 
 
-
 .carrusel {
     
     top: -1.25rem;
     
     
 }
-
-
-/*.carousel-item {
-    height: 100vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size:cover;
-    background-size: cover;
-}*/
-
 
 .linea1{
 
@@ -86,12 +76,6 @@ nav img{
 
 
 
-
-
-
-
-
-
 footer i {
 
     color: white;
@@ -100,6 +84,7 @@ footer i {
 footer img{
     height: 30px;
     float: left;
+   
     
 }
 
@@ -108,6 +93,11 @@ footer img{
     margin-left: -6%;
    
 }
+
+.popover {
+    background: #bac423;
+}
+
 
 
 
@@ -124,9 +114,9 @@ footer img{
     }
 
     footer img{
-        height: 25px;
-        margin-top: 1%;
-        margin-left: -17%;
+        height: 15px;
+        margin-top: 5%;
+        margin-left: -70%;
         margin-bottom: 2%;
         
         
@@ -135,7 +125,8 @@ footer img{
 
     .iconos{
 
-        margin-left: 7%;
+        margin-left: 20%;
        
     }
 }
+
